@@ -9,7 +9,7 @@ pipeline {
 
     stages {
 
-        stage('Clone Git Repository') {
+        stage('Clone Git') {
             steps {
                 git branch: 'main',
                     url: 'https://github.com/sujit01111/E-learning-website-.git'
