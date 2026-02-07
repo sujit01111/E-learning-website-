@@ -61,7 +61,7 @@ pipeline {
             echo "✅ Image pushed and container is running"
         }
         failure {
-            echo "❌ Pipeline failed"
+            echo "Pipeline failed"
         }
     }
 }
